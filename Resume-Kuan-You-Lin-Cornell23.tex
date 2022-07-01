@@ -1,0 +1,259 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+\usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+  {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+  \item\small{
+    {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textbf{\small #2} \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & \textbf{\small #2}\\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------Heading----------
+
+\begin{center}
+  {\Huge \textbf{Kuan-you Lin}} \\ \vspace{1pt}
+  \vspace{5pt}
+  \small \raisebox{-0.1\height}\faPhone\ 917 476 8864 | New York, NY~ 
+  \\
+  \vspace{5pt}
+  \href{https://drive.google.com/drive/folders/1xVORMzxeKhIedqCBr2rBBLqSkA8J62jj?usp=sharing}{\raisebox{-0.2\height}\faGoogle \underline{ Most Updated Resume}}
+  \\
+  \vspace{5pt}
+  \href{kl635@cornell.edu}{\raisebox{-0.2\height}\faEnvelope\  \underline{ kl635@cornell.edu}} ~
+  \href{https://www.linkedin.com/in/linkuanyou/}{\raisebox{-0.2\height}\faLinkedin\ \underline{ linkedin.com/in/linkuanyou}}  ~
+  \href{https://github.com/linvingalliswell}{\raisebox{-0.2\height}\faGithub\ \underline{ github.com/linvingalliswell}}
+
+  \vspace{-8pt}
+\end{center}
+
+%-----------Education Section-----------
+\section{Education}
+\resumeSubHeadingListStart
+
+  % Education #1
+  \resumeSubheading
+  {Cornell University}{August 2021 -- May 2023}
+  {M.S, double major in Information Systems - Connective Media \& Computer Science Concentration}{New York, NY}
+  \resumeItemListStart
+    \resumeItem{GPA: 4}
+    \resumeItem{Merit-based Scholarship}
+    \resumeItem{\textbf{Courses:} Algorithms, Machine Learning, ARVR, Cybersecurity, Cryptography, Blockchain \& Smart Contracts}
+  \resumeItemListEnd
+
+  % Education #2            
+  \resumeSubheading
+  {New York University}{January 2021 -- June 2021}
+  {Certificate of Distinction in Computer Science (GPA: 4)}{New York, NY}
+  \resumeItemListStart
+    \resumeItem{\textbf{Courses:} Data Structure \& Algorithms (C/C++), Computer Architecture, Computer Network, Operating System}
+  \resumeItemListEnd
+
+  % Education #3         
+  \resumeSubheading
+  {National Taiwan University}{September 2016 -- June 2020}
+  {B.B.A, in International Business (GPA: 3.6)}{Taipei, Taiwan}
+  \resumeItemListStart
+    \resumeItem{Exchange: Maastricht University - Data Science, Econometrics, Netherlands (Sep. 2019 -- Mar. 2020)}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------Skills Section-----------
+\section{Skills} 
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small
+{
+  \item
+  {
+    \textbf{Languages: }{TypeScript, JavaScript, Java, Python, C, C++, C\#, HTML, CSS, SQL, MongoDB, Redis, GraphQL, Solidity}\\
+    \textbf{Tools: }{Node.js, Git, Docker, Kubernetes, YAML, JSON, AWS, ESLint, NPM/Yarn, Poetry, Unity} \\
+    \textbf{Frameworks: }{React.js, Next.js, Storybook, Tailwind CSS, Express.js, Flask, Truffle, Web3, Jest, Mocha, React Testing Library, Pandas} \\
+  }
+}
+\end{itemize}
+\vspace{-16pt}
+
+%-----------Experience Section-----------
+\section{Experience}
+\resumeSubHeadingListStart
+  % Experience #2 
+  \resumeSubheading
+    {Software Engineer Intern}{May 2022 -- August 2022}
+    {Circle}{New York, NY}
+  \resumeItemListStart
+    \resumeItem{Building in TypeScript the Circle Account, a web-based business blockchain USDC/EUROC wallet product, working extensively on the frontend development with senior/staff developers, designers, and project managers in the Agile/Sprint practice}
+    \resumeItem{Developing delayed withdrawals and IP allowing lists feature, and user authorization of different permissions in production code with React.js, Next.js, Storybook, GraphQL, Tailwind CSS, Git, and ESLint to compose efficient, tested, and reusable components}
+    \resumeItem{Establishing unit and UI testing patterns for each component and permission sets, including mocking feature switch values locally with dynamic importing and module restoring with Jest, React Testing Library, Apollo}
+    \resumeItem{Assisting in Java backend transaction core development on email notification for on-chain transactions and payment wiring}
+    \resumeItemListEnd
+
+  % Experience #2       
+  \resumeSubheading
+    {Software Engineer Intern}{June 2020 -- January 2021}
+    {BNP Paribas Cardif}{Taipei, Taiwan}
+  \resumeItemListStart
+    \resumeItem{Designed and built in Python the internal financial tool that algortihmizes the statement reconciliation of over 350 accounts and saved 70\% working hours as the project leader cooperating with 15 cross-disciplinary agents}
+    \resumeItem{Established greedy matching algorithms to work around NP-hard issues for the reconciliation, formatted raw statements of various kinds, designed project structures, and worked extensively with pandas, numpy, openpyxl, xlsxwriter}
+  \resumeItemListEnd
+
+  % Experience #3
+  \resumeSubheading
+  {Quantitative development Intern}{July 2020 -- December 2020}
+  {Yuanta Financial Holdings - Proprietary Trading Room}{Taipei, Taiwan}
+  \resumeItemListStart
+    \resumeItem{Built in Python algorithmized trading pools consisting of over 80 programming trading strategies with unsupervised machine learning models with the objective to minimize maximum drawdown on the aggregated performance}
+    \resumeItem{Developed in Multicharts and Power Language, over 15 trading strategies for features investment}
+    \resumeItemListEnd
+    
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------Project Section-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  %Project #1
+  \resumeSubheading
+  {TheCampaign \textnormal{with TypeScript, JavaScript, Solidity, React.js, Next.js, ESLint, React-Semantic-UI, Mocha, Truffle, Web3}}
+  %dates
+  {}
+  %skillsets
+  {}
+  %location
+  {}
+  \vspace{-18pt}
+  \resumeItemListStart
+    \resumeItem{Established an Web3 website for crowdsourcing projects with smart contracts on Ethereum}
+    \resumeItem{Developed contracts with Solidity, tested with Mocha, and built static website with function components and react hooks}
+  \resumeItemListEnd 
+  
+  %Project #2
+  \resumeSubheading
+  {Space Monster \textnormal{with TypeScript, React.js, Next.js, Express.js, Node.js, Jest, Mongoose, Docker, K8S in Microservices}}
+  %dates
+  {}
+  %skillsets
+  {}
+  %location
+  {}
+  \vspace{-18pt}
+  \resumeItemListStart
+    \resumeItem{Established in TypeScript and Node.js, the free space reservation system for the city with 6 event-based microservice servers}
+    \resumeItem{Developed in TypeScript, React.js, and Node.js frontend website with RESTful API interaction with the backend server}
+    \resumeItem{Containerized in Docker, Kubernetes, Skaffold, and deployed with Heroku}
+  \resumeItemListEnd
+  
+  %Project #3
+  \resumeSubheading
+  {Grim Magneto \textnormal{with Unity, C\#}}
+  {}
+  {}
+  {}\vspace{-18pt}
+  \resumeItemListStart
+    \resumeItem{Developed in C\# and Unity, a virtual reality first-person shooting game with level design, sounds \& vibration haptic feedback, automatic enemy droids, and system manual and tutorials on Meta Oculus Quest 2}
+  \resumeItemListEnd
+  
+\resumeSubHeadingListEnd
+\end{document}
